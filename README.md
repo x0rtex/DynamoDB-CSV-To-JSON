@@ -20,13 +20,13 @@ A simple Python script to convert CSV files into JSON format for use with AWS Dy
 1. Clone the repository:
 
    ```
-   git clone https://github.com/x0rtex/dynamodb-csv-to-json.git
+   git clone https://github.com/x0rtex/DynamoDB-CSV-To-JSON.git
    ```
    
 2. Navigate to the project directory:
 
    ```
-   cd dynamodb-csv-to-json
+   cd DynamoDB-CSV-To-JSON
    ```
    
 3. Install required dependencies:
@@ -42,7 +42,7 @@ A simple Python script to convert CSV files into JSON format for use with AWS Dy
 2. Run the script:
 
    ```
-   python csv_to_json_converter.py
+   python main.py
    ```
 
 3. Follow the prompts to specify input and output folder paths.
