@@ -1,21 +1,21 @@
-# CSV to JSON Converter 📝➡️📦
+# CSV to JSON Converter
 
 A simple Python script to convert CSV files into JSON format for use with AWS DynamoDB. This script reads CSV files containing structured data, processes each row, and generates individual JSON files that can be imported as new items into a DynamoDB table.
 
-## Features 🌟
+## Features
 
-- ✅ Converts CSV files to JSON format for DynamoDB import.
-- 🗂️ Prompts to choose input and output folder paths.
-- 🗓️ Automatically organizes JSON files into folders based on CSV object types.
-- 📋 Logs processing details to a log file for tracking purposes.
+- Converts CSV files to JSON format for DynamoDB import.
+- Prompts to choose input and output folder paths.
+- Automatically organizes JSON files into folders based on CSV object types.
+- Logs processing details to a log file for tracking purposes.
 
-## Prerequisites 🛠️
+## Prerequisites
 
-- 🐍 Python 3.6 or higher (Tested on Python 3.12)
-- 📦 `tqdm` library for progress bars
-- 🌈 `colorama` library for colored output
+- Python 3.6 or higher (Tested on Python 3.12)
+- `tqdm` library for progress bars
+- `colorama` library for colored output
 
-## Installation 🔧
+## Installation
 
 1. Clone the repository:
 
@@ -35,7 +35,7 @@ A simple Python script to convert CSV files into JSON format for use with AWS Dy
    pip install -r requirements.txt
    ```
 
-## Usage 🚀
+## Usage
 
 1. Place your CSV files (e.g., `songs.csv`, `albums.csv`, `artists.csv`) in the input folder.
 
@@ -49,7 +49,7 @@ A simple Python script to convert CSV files into JSON format for use with AWS Dy
 
 4. The script will create a folder named with the current date and time and store the JSON files within corresponding subfolders based on the object type (e.g., `songs`, `albums`, `artists`).
 
-## Example 📁
+## Example
 
 Here's an example of what the input and output will look like:
 
